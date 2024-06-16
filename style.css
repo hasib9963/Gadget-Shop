@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  background: #1A187A;
+}
+
+.slider {
+  background: url('/images/background.png') no-repeat;
+  background-size: cover;
+  padding: 0px 75px;
+}
+
+.carousel-item {
+  height: 90vh;
+}
+
+.carousel-heading {
+  font-size: 30px;
+}
+
+.carousel-p {
+  font-size: 10px;
+}
+
+.carousel-image {
+  position: relative;
+  width: 80%;
+  top: 40px;
+}
+
+/* banner styles */
+.ipad-div {
+  display: flex;
+}
+
+.ipad-h {
+  font-size: 49px;
+  font-weight: 500;
+}
+
+.ipad-p {
+  color: #909090;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.airpods-banner {
+  background-color: #ADC2D7;
+}
+
+.airpods-heading {
+  font-size: 29px;
+}
+
+.airpods-p {
+  font-size: 14px;
+  color: #fff;
+}
+
+@media screen and (min-width:992px) {
+  .carousel-image {
+    position: absolute;
+    width: 35%;
+    top: 120px;
+  }
+
+  .carousel-heading {
+    font-size: 96px;
+  }
+
+  .carousel-p {
+    font-size: 18px;
+  }
+}
+
+.catagory-title{
+  font-weight: 50;
+}
+
+.card-img-top{
+  width: 100px;
+  height: 100px;
+
+}
+
+.catagory{
+  background-color: #EDEDED;
+}
+
+.product-heading{
+  display: flex;
+  gap: 32px;
+  font-weight: 500px;
+  margin-top: 30px;
+}
+
+.f-section{
+  background-color: black;
+  color: #CFCFCF;
+  font-weight: 300px;
+  font: Montserrat;
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.eleven-sale{
+  background-color: #958AD4;
+  background-size: contain;
+}
+
+.etext-section{
+  margin-top: 150px;
+  padding-left: 90px;
+}
+
+.product-heading{
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+  
+}
+
+.shop-button{
+  background-color: black;
+  color: #fff;
+  font-weight: 500px;
+  font-size: 20px;
+  padding: 5px 30px;
+  /* margin-left: 30px; */
+  border-radius: 10px;
+  margin: 10px 60px;
+
+}
+
+.p-card{
+  background-color: #F6F6F6;
+}
+
+.eleven-sale{
+  margin-top: 25px;
+}
